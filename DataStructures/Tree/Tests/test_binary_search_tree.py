@@ -147,7 +147,7 @@ def test_put():
     assert three_bst["root"]["left"]["size"] == 3
 
 
-@handle_not_implemented
+
 def test_get():
     empty_bst = setup_tests()
     three_bst = setup_three_nodes()
